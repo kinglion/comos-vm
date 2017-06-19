@@ -1,0 +1,13 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+      "syntax-dynamic-import",
+      "transform-class-properties",
+      "syntax-flow",
+      "transform-flow-strip-types"
+    ],
+  "ignore": [
+    "dist/*.js",
+    "packages/**/*.js"
+  ]
+}
